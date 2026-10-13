@@ -1,0 +1,40 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# IDE and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Raw datasets: do not upload automatically
+data/*.csv
+!data/sample_submission.csv
+
+# Generated prediction files: do not upload automatically
+submissions/*.csv
+
+# Model artifacts
+*.pkl
+*.joblib
+*.model
+*.ubj
+*.onnx
+
+# Logs
+*.log
